@@ -85,7 +85,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 @media only screen and (max-width: 425px) {
