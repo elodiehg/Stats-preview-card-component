@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+body {
+  background: black;
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  background-color: #1b1937;
+  width: 1110px;
+  height: 446px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 177px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img {
+  filter: opacity(0.6) drop-shadow(0 0 #ab5cdb);
+  width: 540px;
+  height: 446px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+h1,
+.paragraph,
+.stat {
+  margin-left: 72px;
+}
+
+h1 {
+  width: 403px;
+  height: 88px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 71px;
+}
+
+span {
+  color: #ab5cdb;
+}
+
+.paragraph {
+  width: 374px;
+  height: 75px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-left: 72px;
+}
+
+.stat_1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.features {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.stat {
+  width: 357px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container {
+    margin-top: 88px;
+    width: 327px;
+    height: 780px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  img {
+    background-image: url(/images/image-header-mobile.jpg);
+    width: 327px;
+    height: 240px;
+  }
+
+  .container_text {
+    width: 327px;
+    height: 780px;
+  }
+
+  h1,
+  .paragraph,
+  .stat {
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0px;
+    margin-left: 31px;
+    width: 264px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: 32px;
+  }
+
+  .paragraph {
+    width: 264px;
+    height: 100px;
+    margin-left: 31px;
+  }
+
+  .stat {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .features {
+    margin-top: 10px;
+  }
+}
